@@ -11,7 +11,7 @@
   }
   
   body {
-    background-color: #DDD;
+    background-color: #54a5b9;
   }
   
   .header {
@@ -180,4 +180,27 @@
           display: block;
           margin-left: auto;
         }
-  
+       .footer-creditos {
+       display: block;
+       text-align: center;
+       margin-top: 30px;
+       color: #140f0a;
+       text-decoration: none;
+       font-weight: bold;
+       }
+       .footer-social {
+       text-align: center;
+       margin-top: 1rem;
+       color: #350a86;
+       }
+
+       .footer-social a img {
+       height: 32px;
+       transition: transform 0.3s ease, filter 0.3s ease;
+       }
+
+       .footer-social a:hover img {
+       transform: scale(1.1);
+       filter: brightness(1.2);
+       filter: hue-rotate(320deg) saturate(1.5);
+       }
